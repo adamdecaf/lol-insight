@@ -1,1 +1,1 @@
-# best-champs
+# lol-insight
