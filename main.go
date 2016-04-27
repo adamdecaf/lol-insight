@@ -5,11 +5,15 @@ import (
 	"net/http"
 	"log"
 	"github.com/adamdecaf/lol-insights/routes"
+	"github.com/adamdecaf/lol-insights/stats"
 )
 
 const DefaultHttpPort = 8080
 
 func main() {
+	// testing..
+	stats.FindSummonerViaName("SpicyMonadz")
+
 	port := DefaultHttpPort
 
 	// Setup and start the http server
