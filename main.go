@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"log"
-	"github.com/adamdecaf/lol-insight/routes"
+	"github.com/adamdecaf/lol-insights/routes"
 )
 
 const DefaultHttpPort = 8080

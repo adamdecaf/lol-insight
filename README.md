@@ -1,1 +1,1 @@
-# lol-insight
+# lol-insights
