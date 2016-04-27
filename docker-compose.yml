@@ -1,7 +1,7 @@
 # lol-insights
 
 nginx:
-  image: nginx:1.10
+  build: nginx/
   net: host
   ports:
     - "80:80"
